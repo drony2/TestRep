@@ -14,4 +14,5 @@ func main() {
 
 func myFunc(c chan int) {
 	c <- cap(c)
+	fmt.Println()
 }
